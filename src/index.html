@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="/assets/fonts/HankenGrotesk-VariableFont_wght.ttf">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="./output.css" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      background-color: hsl(0, 0%, 100%);
+      font-family: "Hanken Grotesk", sans-serif;
+    }
+    .react {
+      background-color: hsla(0, 100%, 67%, 0.1);
+      color: hsl(0, 100%, 67%);
+    }
+    .memory {
+      background-color: hsla(39, 100%, 56%,0.1);
+      color: hsl(39, 100%, 56%);
+    }
+
+    .verbal {
+      background-color: hsla(166, 100%, 37%,0.1);
+      color: hsl(166, 100%, 37%);
+    }
+
+    .visual {
+      background-color: hsla(234, 85%, 45%,0.1);
+      color: hsl(234, 85%, 45%);
+    }
+
+    .button {
+      background-color:hsl(224, 30%, 27%);
+    }
+   p {
+    font-size: 18px;
+   }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="text-center justify-center mx-auto my-0 w-full">
+  <div class="main max-sm:drop-shadow-lg container w-[660px] max-sm:w-full max-sm:m-0 max-sm:rounded-t-none max-md:w-[330px] drop-shadow-2xl flex flex-wrap  mx-auto my-[40px] gap-0 bg-white justify-between h-auto rounded-3xl">
+      <div class="section mx-0 max-sm:mx-auto my-0 text-white bg-gradient-to-b from-slateblue to-royalblue w-[330px] h-auto rounded-3xl max-sm:rounded-t-none">
+        <div class="text-white-800 font-500 size-18px font-medium max-sm:m-4 m-7">Your Result</div>
+        <div class="justify-center rounded-full bg-gradient-to-b text-white from-violetblue to-persianblue w-[150px] h-[150px] mx-auto max-sm:w-[130px] max-sm:h-[130px] my-[30px] py-[40px] max-sm:my-3">
+            <div class="font-extrabold	text-5xl">
+              76
+            </div>
+          <div class="text-xs font-medium text-white-800">of 100</div></div>
+
+    <div class="text-2xl font-bold my-3">
+      Great
+    </div>
+    <p class="text-sm px-[65px] pb-11 max-sm:pb-6 font-extralight max-sm:px-[45px]">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+        <div class="main text-black w-[330px] rounded-3xl max-sm:mx-auto max-sm:rounded-b-none bg-white">
+          <div class="text-start font-500 size-18px font-medium m-6 max-sm:m-4">Summary</div>
+          <div class="reactions font-semibold">
+            <div class=" px-2 react py-3 w-[270px] my-0 justify-between h-12 mb-3 rounded-lg  flex mx-auto"><div class="flex"> <img src="/assets/images/icon-reaction.svg" class="w-[25px] mr-2" alt="reactions">Reaction </div> <div class="text-black ">80 <span class=" text-gray-500">/ 100</span></div></div>
+
+            <div class=" px-2 memory justify-between py-3 w-[270px] h-12 mb-3 rounded-lg  flex mx-auto"><div class="flex"> <img src="/assets/images/icon-memory.svg" class="w-[25px] mr-2" alt="reactions">Memory </div> <div class="text-black ">92 <span class=" text-gray-500">/ 100</span></div></div>
+
+            <div class=" px-2 verbal py-3 w-[270px] h-12 mb-3 rounded-lg justify-between flex mx-auto"><div class="flex"> <img src="/assets/images/icon-verbal.svg" class="w-[25px] mr-2" alt="reactions">Verbal </div> <div class="text-black ">61 <span class=" text-gray-500">/ 100</span></div></div>
+
+            <div class=" px-2 visual py-3 justify-between w-[270px] h-12 mb-3 rounded-lg  flex mx-auto"><div class="flex"> <img src="/assets/images/icon-visual.svg" class="w-[25px] mr-2" alt="reactions">Visual</div> <div class="text-black ">72 <span class=" text-gray-500">/ 100</span></div></div>
+          </div>
+          <button class=" px-2 button py-3 text-center justify-between w-[270px] h-12 m-5 cursor-pointer rounded-3xl text-white mx-auto hover:bg-gradient-to-b from-slateblue to-royalblue">Continue</button>
+  </div>
+ 
+ </div>
+  
+
+ 
+  
+  <div class="attribution max-sm:hidden">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" rel="noopener" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Chizzy192">Chiziterem Eze</a>.
+  </div>
+</body>
+</html>
